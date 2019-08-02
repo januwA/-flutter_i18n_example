@@ -1,0 +1,12 @@
+{
+  "title": "你好世界",
+  "@title": {
+    "description": "Title for the Demo application",
+    "type": "text"
+  },
+  "text": "这是一个Flutter i18n的example",
+  "@text": {
+    "description": "",
+    "type": "text"
+  }
+}

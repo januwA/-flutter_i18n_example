@@ -1,0 +1,22 @@
+name: flutter_i18n_example
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  intl:
+  intl_translation:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
