@@ -3,13 +3,13 @@
 使用intl库，来做本地化
 
 1. 安装插件
-  ```
+```
 dependencies:
   flutter_localizations:
     sdk: flutter
   intl:
   intl_translation
-  ```
+```
   
 2. 拷贝 lib/main.dart
 3. 创建 lib/l18n 文件夹
