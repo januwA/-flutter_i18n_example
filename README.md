@@ -4,12 +4,13 @@
 
 1. 安装插件
   ```
-  dependencies:
+dependencies:
   flutter_localizations:
     sdk: flutter
   intl:
   intl_translation
   ```
+  
 2. 拷贝 lib/main.dart
 3. 创建 lib/l18n 文件夹
 4. 编写.arb文件
