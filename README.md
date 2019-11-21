@@ -11,14 +11,14 @@ dependencies:
   intl_translation
 ```
   
-2. 拷贝 lib/main.dart
+2. 创建`demo_localizations.dart`文件
 3. 创建 lib/l18n 文件夹
-4. 编写.arb文件
+4. 编写`.arb`文件`lib/*.dart`文件都是使用`.arb`文件生成的
 5. 运行脚本
   ```
-  $ flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10 n lib/main.dart
+  $ flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/demo_localizations.dart
 
-  $ flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/main.dart lib/l10n/intl_*.arb
+  $ flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/demo_localizations.dart lib/l10n/intl_*.arb
   ```
 
   6. 运行`flutter run`

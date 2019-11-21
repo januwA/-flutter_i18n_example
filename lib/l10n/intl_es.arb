@@ -1,12 +1,10 @@
 {
   "title": "Hola Mundo",
   "@title": {
-    "description": "Title for the Demo application",
     "type": "text"
   },
   "text": "Este es un ejemplo de un Flutter i18n",
   "@text": {
-    "description": "",
     "type": "text"
   }
 }
